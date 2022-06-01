@@ -19,6 +19,8 @@ The following repository describes how to setup and deploy a machine learning mo
    1. EC2 Instance
    
    2. Elastic Beanstalk
+   
+   3. AWS Lambda
 
 ## 1. Set up environment with pipenv
 
@@ -188,3 +190,9 @@ Now you can use this DNS in your application.
 #### Note
 
 **There seems to be a conflict when using both git and eb cli. In order to avoid this issue you can delete the `.git` folder and solve this issue.**
+
+### 7.3 Deploy using AWS Lambda
+
+For complete implementation you can refer here
+
+[GitHub - mriosrivas/heart-risk-prediction-deployment-lambda: Deployment of machine learning model using AWS Lambda](https://github.com/mriosrivas/heart-risk-prediction-deployment-lambda)
